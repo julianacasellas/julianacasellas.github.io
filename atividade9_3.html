@@ -39,6 +39,24 @@
             </a-entity>
         </a-marker>
 
+	    <!-- marcador #22 - esfera --> 
+	   <a-marker type="barcode" value="22">
+    <a-entity position="1.5 0.05 -2">
+        <a-entity position="0 1 0" animation="property:rotation; to:0 360 0; dur:8000; easing:linear; loop:true">
+            <a-sphere position="0 0 0" radius="1" color="green"></a-sphere>
+        </a-entity>
+        <a-text position="-1 0 2" rotation="-90 0 0" text="width:6; side:double; color:black" value="Esfera"></a-text>
+    </a-entity>
+</a-marker>
+
+
+                </a-entity>
+                <a-text position="-1 0 2" rotation="-90 0 0" text="width:6; side:double; color:black"
+                  value="Toro"></a-text>
+            </a-entity>
+        </a-marker>
+	    
+
 	     <!-- marcador #10 --> 
         <a-marker type="barcode" value="10">
             <a-entity scale="0.01 0.01 0.01" position="0 0.05 0">
@@ -66,21 +84,7 @@
             </a-entity>
         </a-marker>
 
-	    <!-- marcador #22 --> 
-	   <a-marker type="barcode" value="22">
-            <a-entity scale="0.5 0.5 0.5" position="0 0.5 0">
-                <a-gltf-model src="#modelo"></a-gltf-model>
-                <a-entity position="0 0 0">
-                    <a-gltf-model src="#modelo1" animation="property: rotation; to: 0 360 0; 
-                      loop: true; dur: 4000; easing: linear"></a-gltf-model>
-                </a-entity>
-                <a-entity position="0.037 1.947 5.267" rotation="10 0 0">
-                    <a-gltf-model src="#modelo2" animation="property: rotation; to: 360 0 0; 
-                      loop: true; dur: 3200; easing: linear"></a-gltf-model>
-                </a-entity>
-            </a-entity>
-        </a-marker>
-	    
+	   
 
 		
         <a-entity camera></a-entity>
