@@ -1,0 +1,11 @@
+Model Information:
+* title:	CHESS
+* source:	https://sketchfab.com/3d-models/chess-219a0712a19547db9fb338bec76347cb
+* author:	rahimjonovmadiyor (https://sketchfab.com/rahimjonovmadiyor)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "CHESS" (https://sketchfab.com/3d-models/chess-219a0712a19547db9fb338bec76347cb) by rahimjonovmadiyor (https://sketchfab.com/rahimjonovmadiyor) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
