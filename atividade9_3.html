@@ -18,10 +18,10 @@
     <a-scene embedded renderer="logarithmicDepthBuffer: true;" arjs='sourceType: webcam; trackingMethod: best; 
       detectionMode: mono_and_matrix; matrixCodeType: 3x3; debugUIEnabled: false;'>
         <a-assets>
-            <a-asset-item id="modelo" src="https://raw.githubusercontent.com/julianacasellas/julianacasellas.github.io/main/ship.gltf"></a-asset-item>
+           <!-- <a-asset-item id="modelo" src="https://raw.githubusercontent.com/julianacasellas/julianacasellas.github.io/main/ship.gltf"></a-asset-item>
             <a-asset-item id="modelo1" src="objetos/helicea.glb"></a-asset-item>
-            <a-asset-item id="modelo2" src="objetos/heliceb.glb"></a-asset-item>
-            <a-asset-item id="modelo3" src="objetos/chess/scene.gltf"></a-asset-item>
+            <a-asset-item id="modelo2" src="objetos/heliceb.glb"></a-asset-item>-->
+            <a-asset-item id="modelo3" src="objetos/barney_animated__rigged/scene.gltf"></a-asset-item>
             <a-asset-item id="modelo4" src="objetos/chess/scene.gltf"></a-asset-item>
         </a-assets>
 
@@ -62,11 +62,11 @@
         </a-marker>
 
 		
-        <!-- marcador #22 chess --> 
-
-	 <a-marker type="barcode" value="22">
-            <a-entity scale="0.01 0.01 0.01" position="0 0.05 0">
-                <a-gltf-model src="#modelo4" animation-mixer></a-gltf-model>
+        <!-- marcador #29 "barney"  --> 
+	 <a-marker type="barcode" value="29">
+             <a-entity scale="0.1 0.1 0.1" position="0 0.05 0" animation="property:rotation; to:0 360 0; dur:8000; 
+                  easing:linear; loop:true">
+                <a-gltf-model src="#modelo3" animation-mixer></a-gltf-model>
             </a-entity>
         </a-marker>
 
