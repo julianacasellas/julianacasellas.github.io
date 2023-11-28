@@ -24,16 +24,16 @@
             <a-asset-item id="modelo3" src="https://raw.githubusercontent.com/paulohscwb/visualizacao-cientifica/main/modulo9/objetos/lamp2/scene.gltf"></a-asset-item>
             <a-asset-item id="modelo4" src="https://raw.githubusercontent.com/paulohscwb/visualizacao-cientifica/main/modulo9/objetos/evening/scene.gltf"></a-asset-item>
         </a-assets>
-
+ <!-- marcador hiro não funcionou --> 
         <a-marker preset="hiro">
             <a-entity scale="0.5 0.5 0.5" position="0 0.5 0">
                 <a-gltf-model src="#modelo"></a-gltf-model>
                 <a-entity position="0 0 0">
-                    <a-gltf-model src="#modelo1" animation="property: rotation; to: 0 360 0; 
+                    <a-gltf-model src="#modelo" animation="property: rotation; to: 0 360 0; 
                       loop: true; dur: 4000; easing: linear"></a-gltf-model>
                 </a-entity>
                 <a-entity position="0.037 1.947 5.267" rotation="10 0 0">
-                    <a-gltf-model src="#modelo2" animation="property: rotation; to: 360 0 0; 
+                    <a-gltf-model src="#modelo" animation="property: rotation; to: 360 0 0; 
                       loop: true; dur: 3200; easing: linear"></a-gltf-model>
                 </a-entity>
             </a-entity>
