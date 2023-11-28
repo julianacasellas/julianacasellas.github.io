@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    <script src="https://unpkg.com/aframe-gps-component"></script>
+  </head>
+  <body>
+    <a-scene gps-camera="debug: true">
+      <!-- Marcador para o Cristo Redentor -->
+      <a-entity gps-entity-place="latitude: -22.9519; longitude: -43.2106;">
+        <!-- Modelo 3D do Cristo Redentor -->
+        <a-entity
+          gltf-model="https://raw.githubusercontent.com/julianacasellas/julianacasellas.github.io/main/objetos/fox_in_a_cape/scene.gltf"
+          scale="1 1 1"
+        ></a-entity>
+      </a-entity>
+    </a-scene>
+  </body>
+</html>
