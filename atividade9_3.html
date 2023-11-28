@@ -18,7 +18,7 @@
     <a-scene embedded renderer="logarithmicDepthBuffer: true;" arjs='sourceType: webcam; trackingMethod: best; 
       detectionMode: mono_and_matrix; matrixCodeType: 3x3; debugUIEnabled: false;'>
         <a-assets>
-            <a-asset-item id="modelo" src="objetos/helicoptero.glb"></a-asset-item>
+            <a-asset-item id="modelo" src="https://raw.githubusercontent.com/julianacasellas/julianacasellas.github.io/main/ship.gltf"></a-asset-item>
             <a-asset-item id="modelo1" src="objetos/helicea.glb"></a-asset-item>
             <a-asset-item id="modelo2" src="objetos/heliceb.glb"></a-asset-item>
             <a-asset-item id="modelo3" src="https://raw.githubusercontent.com/paulohscwb/visualizacao-cientifica/main/modulo9/objetos/lamp2/scene.gltf"></a-asset-item>
@@ -49,12 +49,12 @@
             <a-entity position="1.5 0.05 -2">
                 <a-entity position="0 1 0" animation="property:rotation; to:0 360 0; dur:8000; 
                   easing:linear; loop:true">
-                    <a-octahedron color="orange" radius="1" opacity="0.8"></a-octahedron>
-                    <a-octahedron color="grey" radius="1" wireframe="true"></a-octahedron>
+                   <a-sphere position="0 1 0" radius="1" color="green"></a-sphere>
+
                 </a-entity>
                 <a-box position="0 1 0" scale="2 2 2" color="blue" opacity="0.6"></a-box>
                 <a-text position="-1 0 2" rotation="-90 0 0" text="width:6; side:double; color:black"
-                  value="Octaedro em RA"></a-text>
+                  value="Esfera"></a-text>
             </a-entity>
         </a-marker>
 		
