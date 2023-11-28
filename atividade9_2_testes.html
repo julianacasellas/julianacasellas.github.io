@@ -19,13 +19,12 @@
         </a-assets>
 
         <a-entity look-at="[gps-camera]" gps-entity-place="latitude: -22.9519; longitude: -43.2106;">
-            <a-entity rotation="-90 0 180" scale="3 3 3" position="1 1 1"> 
+            <a-entity rotation="0 120 0" scale="0.5 0.5 0.5" position="2 0 -4">> 
                 <a-gltf-model src="#modelo" animation="property: rotation; to: 0 360 0; loop: true; dur: 4000; easing: linear" shadow></a-gltf-model>
 		
             </a-entity>
         </a-entity>
 
-	    
         <a-camera gps-camera rotation-reader active="false" position="0 0 0" 
           look-controls-enabled="false"></a-camera>
         <a-light type="ambient" color="white" intensity="2"></a-light>
