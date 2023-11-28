@@ -1,0 +1,11 @@
+Model Information:
+* title:	Fox in a cape
+* source:	https://sketchfab.com/3d-models/fox-in-a-cape-1b061329af8746b79267f56852b17204
+* author:	bonfire.png (https://sketchfab.com/bonfire.png)
+
+Model License:
+* license type:	CC-BY-NC-SA-4.0 (http://creativecommons.org/licenses/by-nc-sa/4.0/)
+* requirements:	Author must be credited. No commercial use. Modified versions must have the same license.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Fox in a cape" (https://sketchfab.com/3d-models/fox-in-a-cape-1b061329af8746b79267f56852b17204) by bonfire.png (https://sketchfab.com/bonfire.png) licensed under CC-BY-NC-SA-4.0 (http://creativecommons.org/licenses/by-nc-sa/4.0/)
